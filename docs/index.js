@@ -32,7 +32,7 @@ $("#generate").on("click",function(e){
 
 const loadModel = async ()=>{
     console.log("Loading Model")
-    model = await tf.loadLayersModel("https://https://raw.githubusercontent.com/JianxiXu/JianxiXu.github.io/main/WebModel/model.json")
+    model = await tf.loadLayersModel("https://raw.githubusercontent.com/JianxiXu/JianxiXu.github.io/main/WebModel/model.json")
     console.log("Model Loaded")
     stopLoading()
 } 
